@@ -1,0 +1,2 @@
+/give Player886 gamedev_club_mod:titanium_sword
+/summon minecraft:cow

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "gamedev_club_mod",
+  "version": "1.0-SNAPSHOT",
+  "name": "Gamedev Club Mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Kevin/Gamedev Club Mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gamedev_club_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.gamedevclubmod.gamedev_club_mod.client.GamedevClubModClient"
+    ],
+    "main": [
+      "org.gamedevclubmod.gamedev_club_mod.GamedevClubMod"
+    ]
+  },
+  "mixins": [
+    "gamedev_club_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.23",
+    "fabric": "*",
+    "minecraft": "1.20.2"
+  }
+}

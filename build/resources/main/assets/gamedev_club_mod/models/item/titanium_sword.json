@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gamedev_club_mod:item/titanium_sword"
+  }
+}
